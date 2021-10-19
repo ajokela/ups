@@ -1,5 +1,13 @@
 #!/bin/bash
 
+### BEGIN INIT INFO
+# Provides:             ups
+# Default-Start:        2 3 4 5
+# Default-Stop:
+# Short-Description:    Pi UPS Hat Status
+### END INIT INFO
+
+
 #GPIO17 (input) used to read current power status. 
 #0 - normal (or battery power switched on manually). 
 #1 - power fault, swithced to battery. 
